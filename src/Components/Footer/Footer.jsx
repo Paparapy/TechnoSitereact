@@ -6,7 +6,11 @@ const Footer = () => (
     <div className="container grid grid-cols-1 gap-8 px-4 mx-auto sm:grid-cols-2 lg:grid-cols-4">
       <div>
         <h2 className="mb-4 text-xl font-bold">À propos</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p> Avec des avancées constantes, la technologie continue d'ouvrir de
+              nouvelles possibilités. Que ce soit dans le domaine de la
+              médecine, de l'éducation ou du divertissement, les innovations
+              technologiques façonnent notre avenir. Pour en savoir plus,
+              visitez notre</p>
       </div>
       <div>
         <h2 className="mb-4 text-xl font-bold">Liens Utiles</h2>
