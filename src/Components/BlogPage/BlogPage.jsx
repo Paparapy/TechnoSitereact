@@ -85,7 +85,7 @@ const BlogPage = () => {
           <p className="text-gray-700">
             Pour en savoir plus sur ces sujets passionnants, consultez ces liens
             et découvrez comment la technologie continue de transformer notre
-            monde.
+            monde.vive cette monde du technologie
           </p>
         </div>
         <div className="relative flex justify-center mt-8 lg:w-1/2 lg:mt-0">
