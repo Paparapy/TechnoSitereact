@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import "./Global.css";
+import "./Home.css";
 
 const Home = () => {
   const containerRef = useRef(null);
