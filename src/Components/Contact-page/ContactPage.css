@@ -1,0 +1,98 @@
+/* ContactPage.css */
+.animate-gradient-text {
+  background: linear-gradient(to right, #614844, #ff416c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-animation 5s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-button {
+  background: linear-gradient(45deg, #141b2d, #5e4f80);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px 0 rgba(92, 30, 19, 0.165);
+  transition: box-shadow 0.3s ease;
+}
+.gradient-button:hover{
+  background: linear-gradient(45deg,#0e47d8, #141b2d);
+}
+
+.form-input {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+  border: none;
+}
+
+.form-input:focus {
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.rounded-lg {
+  border-radius: 10px;
+}
+
+.form-input-container {
+  margin-bottom: 16px;
+}
+
+form {
+  width: 100%;
+  max-width: 600px; /* Reduced width */
+  margin: 0 auto; /* Center form */
+  padding: 2rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 3D effect */
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInDown {
+  animation: fadeInDown 0.8s ease-in-out forwards;
+}
+
+.animate-down {
+  opacity: 0;
+}
+
+.animate-3d-title {
+  position: relative;
+  font-size: 4rem;
+  color: #fff;
+  animation: text-pop-up 2s ease-out infinite;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes text-pop-up {
+  0% {
+    transform: translateZ(0) rotateX(0) rotateY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(60px) rotateX(10deg) rotateY(10deg);
+    opacity: 1;
+  }
+}

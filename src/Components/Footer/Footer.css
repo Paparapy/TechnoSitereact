@@ -1,0 +1,33 @@
+footer {
+    background-color: #1a202c;
+    color: #ffffff;
+    padding: 2rem 0;
+  }
+  
+  footer h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  footer a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #ffcc00; /* Yellow color on hover */
+  }
+  
+  footer .fab {
+    font-size: 1.5rem;
+  }
+  
+  footer .flex {
+    display: flex;
+  }
+  
+  footer .space-x-4 > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+  
