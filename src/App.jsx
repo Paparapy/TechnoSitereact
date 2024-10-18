@@ -1,11 +1,11 @@
 import React from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import Home from "./Components/Home";
+import Home from "./Components/Home/Home";
 import BlogPage from "./Components/BlogPage/BlogPage";
 import Footer from "./Components/Footer/Footer";
 import Bloc from "./Components/Bloc/Bloc";
-import ContactPage from "./Components/Contact-page/ConactPage";
+import ContactPage from "./Components/Contact-page/ContactPage";
 import TechnologyPage from "./Components/TechnoPage/TechnologyPage";
 
 function App() {
