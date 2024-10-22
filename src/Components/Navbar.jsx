@@ -127,7 +127,7 @@ const Navbar = () => {
                 : " duration-500  "
             } font-semibold text-blue-200 hover:text-white`}
           >
-            À propos
+            About
           </Link>
           <Link
             to="/blog"
