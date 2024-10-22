@@ -44,45 +44,39 @@ const BlogPage = () => {
           <div className="pb-6 lg:w-1/2">
             <TextAnimation text="A propos de moi et ma technologie" />
           </div>
-          <p className="text-gray-700">
+          <p className="text-gray-700 lg:text-[15px] sm:text-[12px]">
             La technologie évolue constamment et façonne notre monde de manière
             impressionnante. Par exemple, les{" "}
-            <a
-              href="https://www.example.com/ai"
-              className="text-pink-600"
-            >
+            <a href="https://www.example.com/ai" className="text-pink-600 lg:text-[15px] sm:text-[12px]">
               avancées en intelligence artificielle
             </a>{" "}
             permettent de développer des machines plus intelligentes et
             autonomes. Les{" "}
             <a
               href="https://www.example.com/healthtech"
-              className="text-pink-600"
+              className="text-pink-600 lg:text-[15px] sm:text-[12px]"
             >
               innovations dans le domaine de la santé
             </a>{" "}
             transforment les traitements et améliorent la qualité des soins.
           </p>
-          <p className="text-gray-700">
+          <p className="text-gray-700 lg:text-[15px] sm:text-[12px]">
             En parallèle,{" "}
-            <a
-              href="https://www.example.com/iot"
-              className="text-pink-600"
-            >
+            <a href="https://www.example.com/iot" className="text-pink-600 lg:text-[15px] sm:text-[12px]">
               l'internet des objets (IoT)
             </a>{" "}
             connecte nos appareils quotidiens, créant des maisons et des villes
             plus intelligentes et efficaces. L'
             <a
               href="https://www.example.com/renewableenergy"
-              className="text-pink-600"
+              className="text-pink-600 lg:text-[15px] sm:text-[12px]"
             >
               énergie renouvelable
             </a>{" "}
             joue également un rôle crucial pour un avenir durable, en réduisant
             notre empreinte carbone et en protégeant la planète.
           </p>
-          <p className="text-gray-700">
+          <p className="text-gray-700 lg:text-[15px] sm:text-[12px]">
             Pour en savoir plus sur ces sujets passionnants, consultez ces liens
             et découvrez comment la technologie continue de transformer notre
             monde.vive cette monde du technologie
@@ -93,7 +87,7 @@ const BlogPage = () => {
             <img
               src="https://db0dce98.rocketcdn.me/wp-content/uploads/2023/12/DALL%C2%B7E-2024-01-23-17.42.07-Une-illustration-originale-et-captivante-pour-un-article-sur-la-cybersecurite-en-format-16_9.-Limage-devrait-etre-dynamique-et-inventive-incluant-d-1024x585.png"
               alt="Image 1"
-              className={`absolute w-full h-full object-cover rounded-lg shadow-lg cursor-pointer transition-all duration-300 ${
+              className={`absolute lg:w-full lg:h-full sm:w-[250px] sm:h-[250px] object-cover rounded-lg shadow-lg cursor-pointer transition-all duration-300 ${
                 activeImage === "image1"
                   ? "z-20"
                   : "z-10 top-8 left-8 opacity-80"
@@ -103,7 +97,7 @@ const BlogPage = () => {
             <img
               src="https://noblue.eu/cdn/shop/articles/replicate-prediction-hmk6tyjbzffoaq4fwonjobg2vq_1.jpg?v=1705493579&width=1100"
               alt="Image 2"
-              className={`absolute w-full h-full object-cover rounded-lg shadow-lg cursor-pointer transition-all duration-300 ${
+              className={`absolute lg:w-full lg:h-full w-[250px] h-[250px] object-cover rounded-lg shadow-lg cursor-pointer transition-all duration-300 ${
                 activeImage === "image2"
                   ? "z-20"
                   : "z-10 top-8 left-8 opacity-80"
